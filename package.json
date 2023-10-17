@@ -1,0 +1,14 @@
+{
+  "name": "new",
+  "version": "1.0.0",
+  "description": "Practice React",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Anshuman",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.0"
+  }
+}
