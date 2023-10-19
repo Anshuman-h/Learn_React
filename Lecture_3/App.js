@@ -39,6 +39,7 @@ const heading = (
   </>
 );
 
+// Using Components inside component is known as Component Composition 
 /* To use element in Component We use Curly braces */
 const HeadComp2 = () => (
   <>
