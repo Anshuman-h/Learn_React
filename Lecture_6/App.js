@@ -7,6 +7,7 @@ import Footer from "./Components/Footer";
 const Screen = () => {
   return (
     <>
+    {/* <h1>test</h1> */}
       <Head />
       <Body />
       <Footer />
