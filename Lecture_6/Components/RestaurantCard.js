@@ -1,5 +1,5 @@
 import { IMG_CDN_URL } from "../constants";
-
+import "./RestaaurantCard.css"
 // const RestrauntCard = (props) => { we have to use props.restaurant.image
 const RestrauntCard = ({ name, cloudinaryImageId, cuisines, avgRating }) => {
   //Object Destructuring
@@ -8,6 +8,7 @@ const RestrauntCard = ({ name, cloudinaryImageId, cuisines, avgRating }) => {
   return (
     <div className="item">
       <img
+        className="image"
         alt="Image"
         src={
           IMG_CDN_URL + cloudinaryImageId // restraunt.image
